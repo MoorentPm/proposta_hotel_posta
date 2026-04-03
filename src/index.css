@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  background: #fbf9f8;
+  color: #1b1c1b;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #f5dad0;
+  color: #725e56;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #fbf9f8; }
+::-webkit-scrollbar-thumb { background: #dac1b7; border-radius: 999px; }
