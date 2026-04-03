@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
-const HERO_IMG = '/assets/images/hero-hotel-posta.webp'
+const HERO_IMG = `${import.meta.env.BASE_URL}assets/images/hero-hotel-posta.webp`
 
 export default function Hero() {
   const ref = useRef(null)

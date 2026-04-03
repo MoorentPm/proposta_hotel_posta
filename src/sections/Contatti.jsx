@@ -1,6 +1,6 @@
 import Reveal from '../components/Reveal'
 
-const IMG_CTA = '/assets/images/contatti-cta.webp'
+const IMG_CTA = `${import.meta.env.BASE_URL}assets/images/contatti-cta.webp`
 
 const MINI_STEPS = [
   { n: '01', title: 'Analisi conoscitiva',  sub: 'Valutiamo insieme lo stato attuale e gli obiettivi di crescita.' },

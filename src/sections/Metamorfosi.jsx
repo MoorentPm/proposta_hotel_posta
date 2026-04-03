@@ -1,21 +1,22 @@
 import { useRef, useState, useCallback } from 'react'
 import Reveal from '../components/Reveal'
 
+const BASE = import.meta.env.BASE_URL
 const SLIDES = [
   {
     label: 'Camera',
-    before: '/assets/images/camera-before.webp',
-    after:  '/assets/images/camera-after.webp',
+    before: `${BASE}assets/images/camera-before.webp`,
+    after:  `${BASE}assets/images/camera-after.webp`,
   },
   {
     label: 'Bagno',
-    before: '/assets/images/bagno-before.webp',
-    after:  '/assets/images/bagno-after.webp',
+    before: `${BASE}assets/images/bagno-before.webp`,
+    after:  `${BASE}assets/images/bagno-after.webp`,
   },
   {
     label: 'Sala Ristorante',
-    before: '/assets/images/sala-before.webp',
-    after:  '/assets/images/sala-after.webp',
+    before: `${BASE}assets/images/sala-before.webp`,
+    after:  `${BASE}assets/images/sala-after.webp`,
   },
 ]
 
